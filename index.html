@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Div responsável por centralizar todo o conteúdo html da página.-->
+    <div class="content">
+
+        <header class="header-top">
+            <!--Aqui devemos ter o logo e a nav com os links -->
+            <img class="logotipo" src="./imagens/pngwing.com.png" alt="logo-rj" width="50px" height="50px">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://github.com/IgorTorquatto" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/igor-torquato-0b2b12149/" target="_blank">Linkedin</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <img class="main-image" src="./imagens/saida-pedagogica-rio-de-janeiro-corcovado-cristo-redentor-01.png"
+            alt="Rio de Janeiro" width="1024" height="488">
+
+        <!--Conteúdo Principal em um article-->
+        <article class="main-content">
+            <h1>Rio de Janeiro</h1>
+            <p>A cidade do Rio de Janeiro é a capital do estado de mesmo nome. Ela possui uma grande importância
+                histórica e econômica para o Brasil.</p>
+        </article>
+
+        <!--Cards como articles dentro de  uma section-->
+        <section class="gallery">
+
+            <article class="gallery-card">
+                <img class="gallery-card-img" src="./imagens/Pt1.jpg" width="50px" height="50px" alt="Cristo Redentor">
+                <p><a href="https://pt.wikipedia.org/wiki/Cristo_Redentor" class="gallery-card-link"
+                        target="_blank">Cristo Redentor</a></p>
+            </article>
+
+            <article class="gallery-card">
+                <img class="gallery-card-img" src="./imagens/Pt2.jpg" width="50px" height="50px"
+                    alt="Theatro Municipal">
+                <p><a href="https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro" class="gallery-card-link"
+                        target="_blank">Theatro Municipal</a></p>
+            </article>
+
+            <article class="gallery-card">
+                <img class="gallery-card-img" src="./imagens/Pt3.jpg" alt="Maracanã">
+                <p><a href="https://pt.wikipedia.org/wiki/Est%C3%A1dio_Jornalista_M%C3%A1rio_Filho"
+                        class="gallery-card-link" target="_blank">Maracanã</a></p>
+            </article>
+
+        </section>
+
+        <!--Mapa-->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.41083444544!2d-43.72618308410584!3d-22.91325245919612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1676986249447!5m2!1spt-BR!2sbr"
+                width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+    <!--Footer-->
+    <footer>
+        Copyright &copy; 2023
+    </footer>
+</body>
+
+</html>
